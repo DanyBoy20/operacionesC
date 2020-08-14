@@ -18,7 +18,6 @@ main(){
 	printf("\n\nEl total de estudiantes del curso de fundamentos de programaci%cn es: %d",162,totalAlumnos);
 	printf("\n\nEl porcentaje de estudiantes del g%cnero masculino es: %.0f%c",130,porcentajeHombres,37);
 	printf("\n\nEl porcentaje de estudiantes del g%cnero femenino es: %.0f%c\n\n",130,porcentajeMujeres,37);    	
-    system("pause"); /* pausa antes de salir del programa - util para el ejecutable, pues de no tenerlo, despues de capturar datos, muestra
-    rapidamente los mensajes y resultados y cierra el programa */
+    system("pause"); 
     return 0;
 }
