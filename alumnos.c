@@ -4,10 +4,10 @@ const int porcentajeTotal = 100;
 int numeroAlumnosHombres, numeroAlumnosMujeres, totalAlumnos; 
 float porcentajeHombres, porcentajeMujeres; 
 main(){	
-	printf("Captura el n%cmero de estudiantes hombres: ",163); 
+	printf("Captura el n%cmero de estudiantes sexo masculino: ",163); 
 	scanf("%d",&numeroAlumnosHombres); 
 	system("cls"); 
-	printf("Captura el n%cmero de estudiantes mujeres: ",163); 
+	printf("Captura el n%cmero de estudiantes sexo femenino: ",163); 
 	scanf("%d",&numeroAlumnosMujeres); 
 	system("cls"); 
 	totalAlumnos = numeroAlumnosHombres + numeroAlumnosMujeres; 
